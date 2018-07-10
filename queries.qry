@@ -1,0 +1,15 @@
+/** Sample queries for Commodity Trading business network
+*/
+
+query selectPatientInfo {
+  description: "Select all select all PatientInfo"
+  statement:
+      SELECT org.ehr.mynetwork.PatientInfo
+}
+
+query selectPatientInfoByOwner {
+  description: "Select patientInfo based on their owner"
+  statement:
+      SELECT org.ehr.mynetwork.PatientInfo
+          WHERE (owner == _$owner)
+}

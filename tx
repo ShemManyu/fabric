@@ -1,0 +1,13 @@
+{
+  "$class": "org.ehr.mynetwork.updateVisits",
+  "newVisit": {
+    "$class": "org.ehr.mynetwork.Visit",
+    "hospital": "Aga Khan",
+    "date": "08/08",
+    "procedure": "Surgery",
+    "prescription": ["Pain killer"],
+    "diagnosis": "Sleep deprivation",
+    "doctor": "resource:org.ehr.mynetwork.Doctor#DOCTOR1"
+  },
+  "patientInfo": "resource:org.ehr.mynetwork.PatientInfo#8341"
+}
